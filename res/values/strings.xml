@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Styles &amp; Themes</string>
+    <string name="title">Welcome to our Application!</string>
+    <string name="prompt">Why don\'t you log in?</string>
+    <string name="button_text">Log In</string>
+
+</resources>

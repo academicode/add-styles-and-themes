@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/MyAppStyle.Title"
+        android:text="@string/title" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_below="@+id/title"
+        android:src="@drawable/ac_logo_simple" />
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_above="@+id/button_login"
+        android:text="@string/prompt" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_alignParentBottom="true"
+        android:text="@string/button_text" />
+
+</RelativeLayout>

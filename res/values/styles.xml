@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- This is our custom style!  Note how we inherit from the Android parent style -->
+    <style name="MyAppStyle" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- This is a derivative of our custom style.  Note the different way that we inherit when the class is ours! -->
+    <style name="MyAppStyle.Title">
+        <item name="android:textSize">35sp</item>
+    </style>
+
+    <!-- This is a color value that we want to use as a standard across our application, so we leave it in here. -->
+    <color name="background_color">#303030</color>
+
+</resources>
